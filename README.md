@@ -1,20 +1,27 @@
-# npx create-react-app
-# tailwind css configure
-
+# netflixGPT
+- npx create-react-app
+- tailwind css configure
 
 
 # features:
-    1 login/sign up
-        - login /sign up(if not authenticated user)
-        - redirect to browse page
+- login/sign up
+    - login /sign up(if not authenticated user)
+    - redirect to browse page
 
-    2 browse (after authenticated )
-        - header
-        - main movie
-           - trailer in ackground
-           - title and description 
-           - movie suggestions 
-             - movielist *n
-    3. netflix gpt
-        - search bar
-        - movie suggestion         
+- browse (after authenticated )
+    - header
+    - main movie
+        - trailer in ackground
+        - title and description 
+        - movie suggestions 
+            - movielist *n
+- netflix gpt
+    - search bar
+    - movie suggestion         
+ 
+ctrl+shift+v to run 
+
+# project flow
+- body component, browse, header ,login 
+- roting using react-router-dom
+- routing : 
