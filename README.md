@@ -5,9 +5,11 @@
 - login form/ registr form
 - form validation /useref
 - authetication and firebase
-- 
+- use redux for storing user data and passing to other component
+- implemented signout feature
 
-# features:
+
+# features required:
 - login/sign up
     - login /sign up(if not authenticated user)
     - redirect to browse page
@@ -25,7 +27,3 @@
  
 ctrl+shift+v to run 
 
-# project flow
-- body component, browse, header ,login 
-- roting using react-router-dom
-- routing : 
