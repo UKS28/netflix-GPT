@@ -1,7 +1,11 @@
 # netflixGPT
 - npx create-react-app
 - tailwind css configure
-
+- routing for login
+- login form/ registr form
+- form validation /useref
+- authetication and firebase
+- 
 
 # features:
 - login/sign up
