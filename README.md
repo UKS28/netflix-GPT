@@ -14,7 +14,7 @@
 - videbackground (using fetching data from video api and getting id and extracting you tube video)
 - handling trailer video trough redux store
 - displaying trailer in background 
-
+- displaying all category of movies & making more custom hooks
 # features required:
 - login/sign up
     - login /sign up(if not authenticated user)
