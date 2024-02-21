@@ -11,9 +11,11 @@ export const MOVIE_API_OPTION = {
    method: 'GET',
    headers: {
      accept: 'application/json',
-     Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJlNDBkMzYzMTFlY2NmYWUxNDQ2ZDg3ZmVmNDkzZThhYSIsInN1YiI6IjY1ZDMxZjM5NGJjMzhiMDE4OTU1MzA2ZSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.Mgj7uyWAiE27gA0u1LpwiEdnUnl7dEmi3pIs-24jAGY'
+     Authorization: "Bearer"+ process.env.TMDB_API,
    }
  };
 
  export const POSTER_PATH_CDN=
  "https://image.tmdb.org/t/p/original";
+
+

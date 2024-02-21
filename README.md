@@ -15,6 +15,20 @@
 - handling trailer video trough redux store
 - displaying trailer in background 
 - displaying all category of movies & making more custom hooks
+- mutlilinguistic
+- gpt feature added using open ai API KEY
+- fetched gptMoviesSuggestions from TMDB
+- Header ui fixed
+- beautiful error page
+- asking user api key
+
+# To Do:
+- not responsive(*)
+- each card functionality
+- test user already present
+
+
+
 # features required:
 - login/sign up
     - login /sign up(if not authenticated user)

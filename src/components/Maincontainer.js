@@ -6,7 +6,7 @@ import Videotitle from "./Videotitle"
 const Maincontainer=()=>{
     const movie=useSelector((store)=> store.movie?.nowPlayingMovies);
     if(!movie) return ;
-    const mainMovie=movie[0];
+    const mainMovie=movie[1];
     // console.log(mainMovie)
     const { title ,overview ,id }=mainMovie;
     // console.log(title,overview);

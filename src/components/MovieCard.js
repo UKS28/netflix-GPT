@@ -4,7 +4,7 @@ import { POSTER_PATH_CDN } from '../utils/constant';
 const MovieCard = ({poster_path}) => {
     if (!poster_path) return null;
   return (
-    <div className='w-36 md:w-48 pr-4'>
+    <div className='movie-thumb aspect-[2/3] bg-shimmer overflow-hidden rounded'>
       <img src={POSTER_PATH_CDN+poster_path} alt='movie-poster'/>
     </div>
   )
