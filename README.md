@@ -18,6 +18,7 @@
 - mutlilinguistic
 - gpt feature added using open ai API KEY
 - fetched gptMoviesSuggestions from TMDB
+- swiper add on each movie card
 - Header ui fixed
 - beautiful error page
 - asking user api key
