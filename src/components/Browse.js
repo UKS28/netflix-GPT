@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import Header from './Header'
 import useNowPlayingMovies from '../customHook/useNowPlayingMovies'
 import Maincontainer from './Maincontainer';

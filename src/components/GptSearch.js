@@ -43,7 +43,7 @@ const GptSearch = () => {
         messages: [{ role: "user", content: gptQuery }],
         model: "gpt-3.5-turbo",
       });
-      console.log(gptResults);
+      // console.log(gptResults);
       // if(gptResults)
   
   

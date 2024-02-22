@@ -11,11 +11,10 @@ export const MOVIE_API_OPTION = {
    method: 'GET',
    headers: {
      accept: 'application/json',
-     Authorization: "Bearer"+ process.env.TMDB_API,
+     Authorization: process.env.TMDB_API,
    }
  };
 
  export const POSTER_PATH_CDN=
  "https://image.tmdb.org/t/p/original";
-
 

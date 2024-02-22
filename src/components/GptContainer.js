@@ -8,9 +8,8 @@ const GptContainer = () => {
       <div className="fixed -z-10">
         <img className="object-cover " src={NETFLIX_BG} alt="logo" />
       </div>
-      <div className="">
+      <div >
         <GptSearch />
-        {/* <h6 className="m-4 p-4">Note: Movie recommendations powered by GPT are available on request due to paid APIs.</h6> */}
         <GptMovie /> 
       </div>
 
