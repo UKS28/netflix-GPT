@@ -16,7 +16,7 @@ import { Keyboard, Pagination, Navigation,Mousewheel } from 'swiper/modules';
 
 const Movielist = ({title, movies}) => {
 
-
+    
    
     return (
       <>
@@ -42,7 +42,7 @@ const Movielist = ({title, movies}) => {
       >
          {movies?.map((movie) => (
             <SwiperSlide key={movie.id}> 
-            <MovieCard  poster_path={movie.poster_path} />
+            <MovieCard id={movie.id} poster_path={movie.poster_path} />
             </SwiperSlide>
         ))}
       </Swiper>

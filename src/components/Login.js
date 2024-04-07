@@ -9,11 +9,11 @@ import { NETFLIX_BG} from '../utils/constant'
 const Login = () => {
 
    const dispatch=useDispatch();
-   const [issignin,setIssignin] =useState(false);
+   const [issignin,setIssignin] =useState(true);
    const [errorMessage,setErrorMessage]=useState(null)
    const name=useRef(null);
-   const email=useRef(null);
-   const password=useRef(null);
+   const email=useRef("test1@gmail.com");
+   const password=useRef("Test@123");
    
    const handleSubmit=()=>{
        const mssg=checkValidData(email.current.value,password.current.value);
@@ -86,8 +86,18 @@ const Login = () => {
        >
             <h1 className='font-bold text-3xl py-4'>{issignin?"Sign in":"Sign Up"}</h1>
             {!issignin && <input ref={name} type="text" placeholder='Full Name' className='p-2 my-2 w-full bg-gray-700'/>}
-            <input ref={email} type="text" placeholder='Email id' className='p-2 my-2 w-full bg-gray-700'/>
-            <input ref={password} type="password" placeholder='Password' className='p-2 my-2 w-full bg-gray-700'/>
+            <input 
+            ref={email}
+            type="text"
+            placeholder='test1@gmail.com'
+            className='p-2 my-2 w-full bg-gray-700'
+            defaultValue={"test1@gmail.com"}/>
+            <input 
+            ref={password}
+            type="password" 
+            placeholder='Test@123' 
+            className='p-2 my-2 w-full bg-gray-700'
+            defaultValue={"Test@123"} />
             <p className='font-bold text-red-600 text-lg p-2'>{errorMessage}</p>
             <button 
                 onClick={handleSubmit}

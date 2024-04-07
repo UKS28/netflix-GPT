@@ -2,6 +2,8 @@ import React from 'react'
 import Login from './Login'
 import Browse from './Browse'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
+import NotFoundPage from './NotFoundPage'
+import ContentPage from './ContentPage'
 const Body = () => {
  
     const appRouter= createBrowserRouter(
@@ -13,6 +15,14 @@ const Body = () => {
             {
                 path:"/browse",
                 element:<Browse/>
+            },
+            {
+                path:"/browse/:id",
+                element:<ContentPage/>
+            },
+            {
+                path:"*",
+                element:<NotFoundPage/>
             }
 
         ]

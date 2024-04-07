@@ -24,10 +24,12 @@
 - asking user api key
 
 # To Do:
-- not responsive(*)
-- each card functionality
-- test user already present
-
+- responsive(*)
+- each card functionality ✔
+- shimmer UI (*)
+- Error Handling ✔
+- test user already present ✔ 
+- gpt page css 
 
 
 # features required:
