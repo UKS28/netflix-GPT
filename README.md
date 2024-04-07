@@ -24,9 +24,9 @@
 - asking user api key
 
 # To Do:
-- responsive(*)
+- responsive(*) 
 - each card functionality ✔
-- shimmer UI (*)
+- shimmer UI (*) ✔
 - Error Handling ✔
 - test user already present ✔ 
 - gpt page css 

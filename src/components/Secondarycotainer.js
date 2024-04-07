@@ -1,9 +1,13 @@
 import { useSelector } from "react-redux";
 import Movielist from "./Movielist";
+import Shimmer from "./Shimmer";
 
 const Secondarycontainer=()=>{
    const movie=useSelector(store=>store.movie)
     //  console.log(movie.nowPlayingMovies)
+    if(movie.nowPlayingMovies===null)
+       return <Shimmer/> 
+
      return (
       movie.nowPlayingMovies &&
        ( <div className="bg-black w-screen aspect-video">

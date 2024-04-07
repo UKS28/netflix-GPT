@@ -8,8 +8,8 @@ const usePopularMovie=()=>{
 
     const getPopularMovie=async()=>{
      const data=await fetch('https://api.themoviedb.org/3/movie/popular?language=en-US&page=1', MOVIE_API_OPTION);
-     const json =await data.json();
-    //  console.log(json.results);
+     const json =await data.json(); 
+     //  console.log(json.results);
      dispatch(addPopular(json.results));
      
     }
