@@ -16,7 +16,7 @@ const Login = () => {
    const password=useRef("Test@123");
    
    const handleSubmit=()=>{
-       const mssg=checkValidData(email.current.value,password.current.value);
+      const mssg=checkValidData(email.current.value,password.current.value);
         setErrorMessage(mssg);
         if(mssg)  return;
 
